@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university webdesign-easy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jfif" alt=""></a>
+            <h4>edufold</h4>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Biggest university</h1>
+            <p>Making website is now one of the easiest thing in the world.You just need to learn html, css ,  <br>  javascript and you are good to go.</p>
+            <a href="" class="hero-btn">visit us to know more</a>
+
+
+
+        </div>
+
+
+
+    </section>
+    
+    <section class="course">
+        <h1>COURSE WE OFFER</h1>
+        <p>we offer the best online cousre in the world for free.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>intermediate</h3>
+                <p>we offer the best online cousre in the world for free.hdfhsfuiwebbeycuewecebciwu</p>
+            </div>
+            <div class="course-col">
+                <h3>degree</h3>
+                <p>we offer the best online cousre in the world for free.sdkjhkshffuiudhcihcd</p>
+            </div>
+            <div class="course-col">
+                <h3>post gradute</h3>
+                <p>we offer the best online cousre in the world for free.sdhsdoisjudhiuhvwiuwhciuwecw</p>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="campus">
+        <h1>Our Global campus</h1>
+        <P>we offer the best online cousre in the world.</P>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/service.jpg">
+                <div class="layer">
+                    <h3>swoyambhu</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/service.jpg">
+                <div class="layer">
+                    <h3>Boudhnath</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/service.jpg">
+                <div class="layer">
+                    <h3>Bhaktapur</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dlor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+        <a href="#" class="btn">Learn More</a>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <input type="submit" value="Send"><br>
+            <div class="form-check-inline" >
+<input type="checkbox" name = "agreement" class= "form-check-input" required>
+<label for="agreement" class= "form-check-label font-ubuntu text-black-50">I agree <a href ="#">terms, conditions and policy</a>(*)</label><br>
+</div><br>
+
+
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+<footer>
+    <p>&copy; 2023 university. All rights reserved.</p>
+</footer>
+
+
+</body>
+</html>
